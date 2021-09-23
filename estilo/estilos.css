@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin:0px;
+} 
+
+ /*---------Estos son las clases del menu-----------*/
+
+.menu{
+
+    background: rgb(255, 255, 255)
+    width: 100%;
+    border: 1px solid rgb(27, 11, 245)
+    padding: 70px; 
+}
+
+
+.imagen1{
+
+    width: 20%;
+    margin-left: 30px;
+    padding-top: 0px;
+    padding: 15px;
+}
+
+/*------------------Botones---------------------*/
+
+nav{
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+    margin-right: 200px;
+    margin-top: 20px;    
+}
+
+nav ul li{
+ display: inline-block;
+ margin: 20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color: #000;
+    border:1px solid #000;
+}
+
+.pro{
+    border: 1px solid rgb(84, 18, 238);
+    color:white;
+    background: blue;
+    margin:5px;
+    padding: 3px;
+    width: 20px;
+}
+/*------------Boton Challenge-------------------*/
+.challenge{
+
+    padding-left: 50px;
+    border: 1px solid rgb(32, 172, 207);   
+}
+.boton1{
+    width: 100px;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(32, 172, 207); 
+}
+
+/*-----------------articulos------------------*/
+.container{
+
+    
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+/*----------------Cuadro 1-------------------*/
+.container .cuadro1{
+
+    background: rgb(255, 255, 255);  
+}
+
+.dibujo{
+    height: 90%;
+    width: 100%;
+}
+
+/*------------------Cuadro 2-----------------*/
+.container .cuadro2{
+    
+    padding: 1em;
+}
+.lista ul li{
+
+    display: inline-block;
+    padding: 10px;
+}
+.free{
+    color:rgb(41, 79, 161);
+    border-radius: 30px;
+    border: 1px solid rgb(228, 225, 225);
+    background: rgb(233, 230, 230) ;
+}
+.html{
+    color: rgb(41, 152, 185);
+}
+.css{
+    color:rgb(41, 79, 161);
+}
+
+
