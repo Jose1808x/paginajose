@@ -15,10 +15,9 @@
 
 
 .imagen1{
-
     width: 20%;
     margin-left: 30px;
-    padding-top: 0px;
+    padding-top: 5px;
     padding: 15px;
 }
 
@@ -29,52 +28,63 @@ nav{
     display: inline-block;
     float: right;
     margin-right: 200px;
-    margin-top: 20px;    
+    margin-top: 5px;    
 }
 
 nav ul li{
  display: inline-block;
  margin: 20px;
+ 
 }
 
 nav ul li a{
     text-decoration:none;
     color: #000;
-    border:1px solid #000;
+    border-bottom-color:1px solid #000;
+    font-family: comic sans ms;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav ul li a:hover{
+    border-top: #000;
 }
 
 .pro{
     border: 1px solid rgb(84, 18, 238);
     color:white;
-    background: blue;
+    background: rgb(35, 72, 143);
     margin:5px;
-    padding: 3px;
-    width: 20px;
+    padding: 5px;
+    border-radius: 3px;
 }
+
 /*------------Boton Challenge-------------------*/
 .challenge{
 
     padding-left: 50px;
-    border: 1px solid rgb(32, 172, 207);   
+    border: 1px solid rgb(123, 129, 129);  
 }
+
 .boton1{
-    width: 100px;
+    width: 150px;
     height: 40px;
     background: rgb(255, 255, 255);
-    border: 1px solid rgb(32, 172, 207); 
+    border: 1px solid rgb(123, 129, 129); 
+    font-style: italic; 
+    font-family: comic sans ms;
+    font-weight: bold;
 }
 
 /*-----------------articulos------------------*/
 .container{
-
-    
     display:grid;
     grid-template-columns: 50% 50%;
 }
+
 /*----------------Cuadro 1-------------------*/
 .container .cuadro1{
-
-    background: rgb(255, 255, 255);  
+    background: rgb(255, 254, 254);  
 }
 
 .dibujo{
@@ -84,25 +94,183 @@ nav ul li a{
 
 /*------------------Cuadro 2-----------------*/
 .container .cuadro2{
-    
     padding: 1em;
 }
-.lista ul li{
 
+.botones ul li{
     display: inline-block;
-    padding: 10px;
+    padding: 5px;
 }
+
 .free{
     color:rgb(41, 79, 161);
-    border-radius: 30px;
+    border-radius: 17px;
     border: 1px solid rgb(228, 225, 225);
     background: rgb(233, 230, 230) ;
+    font-style: italic; 
+    font-family: comic sans ms;
+    font-weight: bold;
 }
+
 .html{
     color: rgb(41, 152, 185);
+    font-style: italic; 
+    font-family: comic sans ms;
+    font-weight: bold;
 }
+
 .css{
     color:rgb(41, 79, 161);
+    font-style: italic; 
+    font-family: comic sans ms;
+    font-weight: bold;
 }
 
+.aislado{
+    display: inline-block;
+    float: right;
+    font-style: italic; 
+    font-family: comic sans ms;
+    font-weight: bold;
+    color: rgb(22, 160, 179);
+    border: 1px solid rgb(70, 233, 255);
+    width: -9px;
+}
+.numero{
+    background:rgb(22, 160, 179) ;
+    color: blanchedalmond;
+    font-weight: bold;
+    margin:-5px;
+    padding: 4px;
+}
 
+.linea1{
+    margin-left: 30px;
+}
+
+.lista{
+    background: rgb(232, 239, 241);
+    height: 270px;
+}
+
+.asse{
+    padding: 30px;
+}
+
+.items{
+     margin-left: 40px;
+}
+
+.linea{
+    margin-left: 50px;
+    color: rgb(123, 129, 129);
+}
+
+/*----------------------Botones 2----------------------*/
+.uno{
+    width: 30%;
+    font-family: comic sans ms;
+    font-weight: bold;
+    color: rgb(255, 251, 251);
+    background: rgb(41, 79, 161);
+    height: 30px;
+    border-radius: 17px;
+}
+
+.uno:hover{
+    border: rgb(3, 3, 5) ;
+}
+
+.dos{
+    width: 30%;
+    font-family: comic sans ms;
+    font-weight: bold;
+    color: rgb(129, 154, 155);
+    background: rgb(207, 220, 221);
+    height: 30px;
+    border-radius: 17px;
+}
+
+.dos:hover{
+    border:rgb(97, 94, 94);
+}
+
+.tres{
+    width: 30%;
+    font-family: comic sans ms;
+    font-weight: bold;
+    color: rgb(255, 251, 251);
+    background: rgb(41, 79, 161);
+    height: 40px;
+    border-radius: 17px;
+}
+
+.tres:hover{
+    border: rgb(3, 3, 5) ;
+}
+
+/*-----------------------Challenge----------------------*/
+.cambio{
+ margin-top: 30px;
+ height: 70px;
+ margin-left: 47%;
+ font-family: comic sans ms;
+}
+
+/*-------------------------Listas-----------------------*/
+.contenedor2{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+/*----------------------Cuadro3-------------------------*/
+.cuadro3{
+    width: 100%;
+    height: 500px;
+}
+
+.titulo1{
+    margin-left: 90px;
+}
+
+.lista1{
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 30px;
+    height: 70%;
+    color: rgb(54, 53, 53);
+}
+
+.fila{
+    margin-left: 60px;
+}
+
+/*----------------------Cuadro4-------------------------*/
+.cuadro4{
+    width: 100%;
+    height: 500px;
+}
+.titulo2{
+    margin-left: 20px;
+}
+
+.lista2{
+    margin-top: -10px;
+    padding: 30px;
+    height: 50%;
+    color:rgb(54, 53, 53)
+    
+}
+/*-----------------boton ultimo-------------------------*/
+.cuatro{
+    width: 20%;
+    font-family: comic sans ms;
+    font-weight: bold;
+    color: rgb(255, 251, 251);
+    background: rgb(41, 79, 161);
+    height: 40px;
+    border-radius: 17px;
+}
+.cuatro:hover{
+    border: rgb(3, 3, 5) ;
+}
